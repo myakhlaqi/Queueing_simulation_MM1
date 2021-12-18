@@ -26,7 +26,7 @@ class Event implements Cloneable{
 	public double getWaitingTime() {
 		return waitingTimeGlobal;
 	}
-	//public double stime;
+	
 	private EventType type;//0 means generation and 1 means departurer
 
 	public Event(double time,EventType type) {
