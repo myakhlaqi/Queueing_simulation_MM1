@@ -63,6 +63,7 @@ class Event implements Cloneable{
 				
 				(this.type==EventType.GEN)?"IN":"OUT");*/
 	}
+	
 	public double getServiceTime() {
 		return ServiceTime;
 	}
