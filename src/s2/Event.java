@@ -29,6 +29,7 @@ class Event implements Cloneable{
 	
 	private EventType type;//0 means generation and 1 means departurer
 
+	
 	public Event(double time,EventType type) {
 		this.type = type;
 		this.ArrivalTime = time;
