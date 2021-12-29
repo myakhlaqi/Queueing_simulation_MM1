@@ -58,7 +58,6 @@ class Event implements Cloneable{
 				this.getWaitingTime(),this.ServiceTime,this.DepartureTime,type);*/
 		return String.format(" <p%-3d,%-4.2f,%3s>",id,this.ArrivalTime,
 		type);
-
 				
 		/*return String.format(" <p%-3d,%-4.2f,%3s>",id,this.ArrivalTime,
 				
