@@ -39,7 +39,6 @@ class Event implements Cloneable{
 		this.ArrivalTime = time;
 	}
 
-
 	public EventType getType() {
 		return type;
 	}
