@@ -41,7 +41,7 @@ public class Simulator {
 	double plr;// packetLossRate;//total packet loss/npa
 	double avgBuffer;// averageBuffer;// total Q size / time it is equalent to Queue size or buffer size
 	private double dt;
-	//////////////////////////////////////////////////////////
+	
 
 	//////////////////////////////
 	public Simulator(double lamda, double mu, int endTime, int queueSize) {
