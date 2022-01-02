@@ -347,7 +347,6 @@ public class Simulator {
 
 			updateResults(e);
 
-
 		}
 	}
 }
