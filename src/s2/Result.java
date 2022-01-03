@@ -27,7 +27,7 @@ public class Result implements Cloneable {
 	    } catch (CloneNotSupportedException e) {
 	        user = new Result();
 	    }
-	    
+
 	    return user;
 	}
 }
