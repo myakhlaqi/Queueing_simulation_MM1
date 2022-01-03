@@ -14,6 +14,7 @@ public class Result implements Cloneable {
 	public double lost_ratio;
 	public double avgDelay;
 	public double avgQLength;
+	
 	public String toString() {
 		return String.format("%4.2f\t%s\t%5s\t%4d\t%4d\t%4d\t%4d\t"+
 	"%4.2f\t%4.2f\t%6.2f\t%6.2f\t%6.2f",clock,otype,ss,qLength,
