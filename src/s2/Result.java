@@ -1,4 +1,5 @@
 package s2;
+ 
 import s2.Event.EventType;
 
 public class Result implements Cloneable {
