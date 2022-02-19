@@ -34,3 +34,4 @@ public class Result implements Cloneable {
 	    return user;
 	}
 }
+ 
