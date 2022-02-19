@@ -21,6 +21,7 @@ public class Result implements Cloneable {
 	"%4.2f\t%4.2f\t%6.2f\t%6.2f\t%6.2f",clock,otype,ss,qLength,
 	npa,npd,ndp,wt,st,lost_ratio,avgDelay,avgQLength);
 	}
+
 	@Override
 	public Object clone() {
 	    Result user = null;
