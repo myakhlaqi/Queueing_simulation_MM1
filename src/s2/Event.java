@@ -82,4 +82,3 @@ class Event implements Cloneable{
 	    return e;
 	}	
 }
-
