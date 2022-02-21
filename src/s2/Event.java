@@ -78,7 +78,7 @@ class Event implements Cloneable{
 	        e.setId(this.id);
 	        //e.setServiceTime(this.getServiceTime());
 	        //e.setWaitingTime(this.getWaitingTime());
-	        //e.setDepartureTime(this.getDepartureTime());
+	        e.setDepartureTime(this.getDepartureTime());
 	    return e;
 	}	
 }
