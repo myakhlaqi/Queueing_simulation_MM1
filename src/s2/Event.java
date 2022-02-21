@@ -2,7 +2,7 @@ package s2;
 
 class Event implements Cloneable{
 	enum EventType {IN,Q,Srv,OUT, Dropped};//0 generation and 1 departuere
-	// double count;
+	// static count;
 	private int id;
 	
 	public void setId(int id) {
