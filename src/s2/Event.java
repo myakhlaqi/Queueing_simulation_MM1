@@ -51,6 +51,7 @@ class Event implements Cloneable{
 	public void setTime(double time) {
 		this.ArrivalTime = time;
 	}
+	
 	public String toString() {
 
 		/*return String.format(" <p%-3d,%-4.2f,%-4.2f,%-4.2f,%-4.2f,%3s>",id,this.ArrivalTime,
