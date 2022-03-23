@@ -344,8 +344,7 @@ public class Simulator {
 			} else if (e.getType() == Event.EventType.IN) {
 				pg();
 			}
-
-			//updateResults(e);
+updateResults(e);
 		}
 	}
 }
