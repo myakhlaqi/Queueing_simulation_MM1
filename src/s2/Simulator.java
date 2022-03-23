@@ -345,7 +345,7 @@ public class Simulator {
 				pg();
 			}
 
-			updateResults(e);
+			//updateResults(e);
 		}
 	}
 }
