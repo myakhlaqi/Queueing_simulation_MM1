@@ -50,7 +50,7 @@ public class Simulator {
 		this.id = 1;
 		this.lamda = lamda;
 		this.mst = endTime;
-		 pg = new LinkedList<Event>();
+		//pg = new LinkedList<Event>();
 		this.numberOfServers = 1;
 		maxqsize = queueSize;
 		queue = new LinkedList<Event>();
