@@ -26,6 +26,7 @@ public class Result implements Cloneable {
 	public Object clone() {
 	    Result user = null;
 	    try {
+		    
 	        user = (Result) super.clone();
 	    } catch (CloneNotSupportedException e) {
 	        user = new Result();
