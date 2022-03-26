@@ -1,5 +1,5 @@
 package s2;
-  
+   
 class Event implements Cloneable{
 	enum EventType {IN,Q,Srv,OUT, Dropped};//0 generation and 1 departuere
 	// static int count;
