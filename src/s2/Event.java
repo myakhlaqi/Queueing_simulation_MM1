@@ -74,6 +74,7 @@ class Event implements Cloneable{
 	}
 	@Override
 	public Object clone() {
+		
 	    Event e = null;
 	        e = new Event(this.getTime());
 	        e.setId(this.id);
