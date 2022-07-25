@@ -37,7 +37,7 @@ public class Simulator {
 
 	private ServerStatus ss;// server status
 	/////// metrices////////////
-	double avgDelay = 0;// averageDelay=total delay/npd
+	double avgDelay = 0; // averageDelay=total delay/npd
 	double plr;// packetLossRate;//total packet loss/npa
 	double avgBuffer;// averageBuffer;// total Q size / time it is equalent to Queue size or buffer size
 	private double dt;
