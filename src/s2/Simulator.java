@@ -10,7 +10,7 @@ import s2.Event.EventType;
 import javax.swing.*;
 
 public class Simulator {
-	private int row;// packet sequence number
+	private int row; // packet sequence number
 	private int mst;// max simulation time
 	// private LinkedList<Event> pg;
 	private Queue<Event> queue;// Queue Structure
