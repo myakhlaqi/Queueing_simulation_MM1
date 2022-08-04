@@ -23,7 +23,7 @@ public class Simulator {
 	private int npa;// number of packet arrival
 	private int npd;// number of packet departures
 	private int tpl;// total packet loss
-	private int tdl;// total delay
+	private int tdl;//  total delay
 	private int maxqsize;// Max Q size
 	private int tqs;
 	private Result currentResult;
