@@ -86,7 +86,7 @@ public class Simulator {
 		/////////////// reset performance metrics ////////////////////
 		avgDelay = 0; // averageDelay=total delay/npd
 		plr = 0;// packetLossRate;//total packet loss/npa
-		avgBuffer = 0;// averageBuffer;// total buffer / time
+		avgBuffer = 0;// averageBuffer; // total buffer / time
 
 	}
 
