@@ -43,7 +43,7 @@ public class Simulator {
 	private double dt;
 
 
-	//////////////////////////////
+	/////////////////////////////////////////
 	public Simulator(double lamda, double mu, int endTime, int queueSize) {
 		//////////// initializer////////////
 		this.mu = mu;
