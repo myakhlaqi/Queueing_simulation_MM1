@@ -13,7 +13,7 @@ public class Simulator {
 	private int row; // packet sequence number
 	private int mst; // max simulation time
 	// private LinkedList<Event> pg;
-	private Queue<Event> queue;// Queue Structure
+	private Queue<Event> queue; // Queue Structure
 	private Queue<Result> resultList;// to save the results
 	private int numberOfServers; // number of sink or servers
 	private Event nextDeparture;
