@@ -15,7 +15,7 @@ public class Simulator {
 	// private LinkedList<Event> pg;
 	private Queue<Event> queue;// Queue Structure
 	private Queue<Result> resultList;// to save the results
-	private int numberOfServers;// number of sink or servers
+	private int numberOfServers; // number of sink or servers
 	private Event nextDeparture;
 	private Event nextArrival;
 	private double simclock;
