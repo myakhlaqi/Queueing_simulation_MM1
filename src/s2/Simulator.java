@@ -28,7 +28,7 @@ public class Simulator {
 	private int tqs;
 	private Result currentResult;
 	private double lamda;// is the expected (average) number of arrivals per hour,
-							//  or day, or whatever units t is measured in.
+							// or day, or whatever units t is measured in.
 	private int id;// event id
 
 	enum ServerStatus {
