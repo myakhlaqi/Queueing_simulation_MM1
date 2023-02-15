@@ -58,7 +58,7 @@ public class Simulator {
 	}
 
 	public void init() {
-		//this.load+=x;// X axis on the chart
+		
 		ss = ServerStatus.IDEL;
 		double sum = 0;
 		/*
