@@ -11,7 +11,7 @@ class Event implements Cloneable{
 	public int getId() {
 		return this.id;
 	}
-	//private PacketType type;
+	
 	//enum PacketType {PACKET_GENERATION,PACKET_DEPARTUER};
 	private double ArrivalTime;
 	private double ServiceTime;
