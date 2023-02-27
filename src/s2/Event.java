@@ -12,7 +12,7 @@ class Event implements Cloneable{
 		return this.id;
 	}
 	
-	//enum PacketType {PACKET_GENERATION,PACKET_DEPARTUER};
+	
 	private double ArrivalTime;
 	private double ServiceTime;
 	private double DepartureTime;
