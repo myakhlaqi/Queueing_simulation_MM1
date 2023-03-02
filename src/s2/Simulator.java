@@ -124,7 +124,7 @@ public class Simulator {
 			nextDeparture.setServiceTime(exponential(mu));
 			nextDeparture.setDepartureTime(simclock + nextDeparture.getServiceTime());
 			nextDeparture.setWaitingTime(0);
-			// nextDeparture.setTime(simclock + serviceExponential(1.0 / mu));
+			// nextDeparture.setTime(simclock + serviceExponential(1.0 / mu + 2));
 			nextDeparture.setType(EventType.OUT);
 		}
 
