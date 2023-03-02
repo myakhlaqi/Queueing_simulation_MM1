@@ -306,7 +306,7 @@ public class Simulator {
 
 		/*
 		 * File f=s.saveLog(); JOptionPane.showMessageDialog(null,
-		 * "Simulation complete.\nLog: logs/out.csv"); Desktop desktop =
+		 * "Simulation complete.\n\tLog: logs/out.csv"); Desktop desktop =
 		 * Desktop.getDesktop(); desktop.open(f);
 		 */
 
