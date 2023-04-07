@@ -61,7 +61,7 @@ public class Simulator {
 		ss = ServerStatus.IDEL;
 		double sum = 0;
 		/*
-		 * for (int i = 0; i <= 100000 *mst; i++) { double iat =
+		 * for (int i = 0; i <= 100000 * mst; i++) { double iat =
 		 * poissonExponential(lamda*x); sum += iat; Event e = new Event(sum,
 		 * Event.EventType.IN); e.setId(i); pg.add(e); //npd=1; }
 		 */
