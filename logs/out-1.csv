@@ -9,7 +9,7 @@ load,clock ,otype,  ss,qLength, npa, npd,dropped,wt  ,st  ,lost%,avgDelay,avgQLe
 10,5.3100,Dropped, BUSY,10,55,0,44,0,0,0.8,0,8.78
 10,5.3800,Dropped, BUSY,10,57,0,45,0,0,0.81,0,8.79
 10,5.6610,Dropped, BUSY,10,59,0,48,0,0,0.81,0,8.85
-10,5.920,Dropped, BUSY,10,63,0,52,0,0,0.83,0,8.9
+10,5.9200,Dropped, BUSY,10,63,0,52,0,0,0.83,0,8.9
 10,5.9700,Dropped, BUSY,10,64,0,53,0,0,0.83,0,8.91
 10,6.0100,Dropped, BUSY,10,65,0,54,0,0,0.83,0,8.92
 10,6.4200,Dropped, BUSY,10,68,0,57,0,0,0.84,0,8.99
