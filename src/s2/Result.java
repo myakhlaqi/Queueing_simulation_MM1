@@ -9,7 +9,7 @@ public class Result implements Cloneable {
 	public int qLength;
 	public int npa ;
 	public int npd;
-	public int ndp; // represents the droped packet
+	public int ndp; // represents the number droped packet
 	public double wt;
 	public double st;
 	public double lost_ratio;
