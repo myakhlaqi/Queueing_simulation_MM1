@@ -19,7 +19,7 @@ public class Simulator {
 	private Event nextArrival;
 	private double simclock;
 	private double mu;
-	private int npa;// number of packet arrival
+	private int npa; // number of packet arrival
 	private int npd;// number of packet departures
 	private int tpl;// total packet loss
 	private int tdl;//  total delay
