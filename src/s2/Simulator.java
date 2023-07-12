@@ -23,7 +23,7 @@ public class Simulator {
 	private int npd;// number of packet departures
 	private int tpl;// total packet loss
 	private int tdl;//  total delay
-	private int maxqsize;// Max Q size
+	private int maxqsize;// Max Queue size
 	private int tqs;
 	private Result currentResult;
 	private double lamda;// is the expected (average) number of arrivals per hour,
