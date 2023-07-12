@@ -131,7 +131,7 @@ public class Simulator {
 			if (queue.size() == maxqsize) {
 				currentResult.otype = EventType.Dropped;
 				tpl++;
-				// nextDeparture.setWaitingTime(0);
+				
 				// nextDeparture.setDepartureTime(Double.MAX_VALUE);
 				// System.out.println(String.format("%12s%s%s", " ", nextArrival.toString(),
 				// "Droped!"));
