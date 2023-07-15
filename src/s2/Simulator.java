@@ -222,7 +222,7 @@ public class Simulator {
 	}
 
 	public String getLog(EventType e) {
-		return String.format("%-3d) ; t=%-10.2f;%s-;%-4d;%s", row++, simclock,
+		return String.format("%-3d) ;t=%-10.2f;%s-;%-5d;%s", row++, simclock,
 				(e == EventType.IN) ? nextArrival : nextDeparture, npd, queue);
 
 	}
