@@ -314,7 +314,7 @@ public class Simulator {
 
 	private void saveLog(int load, PrintWriter out) {
 
-			String header = String.format("%s\t%-6s\t%-5s\t%4s\t%4s\t%4s\t%4s\t%4s\t" + "%-4s\t%-4s\t%s\t%s\t%-1s",
+			String header = String.format("%s\t%-6s\t%-5s\t%5s\t%4s\t%4s\t%4s\t%4s\t" + "%-4s\t%-4s\t%s\t%s\t%-1s",
 					"load", "clock", "otype", "ss", "qLength", "npa", "npd", "dropped", "wt", "st", "lost%", "avgDelay",
 					"avgQLength");
 			out.println(header);
