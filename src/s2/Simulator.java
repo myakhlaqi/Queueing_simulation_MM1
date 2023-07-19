@@ -112,7 +112,7 @@ public class Simulator {
 
 	public void pg() {
 		npa++;
-		// System.out.println(getLog(EventType.IN));
+		// System.out.println(getLog
 		// nextDeparture.setTime(nextArrival.getTime());
 
 		if (ServerStatus.IDEL == ss) {
