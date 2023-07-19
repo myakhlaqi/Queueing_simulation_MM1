@@ -34,7 +34,7 @@ public class Simulator {
 		IDEL, BUSY
 	};
 
-	private ServerStatus ss;// server status
+	private ServerStatus ss;// server's status
 	/////// metrices////////////
 	double avgDelay = 0; // averageDelay=total delay/npd
 	double plr; // packetLossRate;//total packet loss/npa
