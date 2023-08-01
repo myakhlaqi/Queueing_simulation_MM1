@@ -133,7 +133,7 @@ public class Simulator {
 				tpl++;
 				
 				// nextDeparture.setDepartureTime(Double.MAX_VALUE);
-				// System.out.println(String.format("%12s%s%s", " ", nextArrival.toString(),
+				// System.out.println(String.format("%10s%s%s", " ", nextArrival.toString(),
 				// "Droped!"));
 			} else {
 				currentResult.otype = EventType.Q;
