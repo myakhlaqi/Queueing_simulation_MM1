@@ -182,7 +182,7 @@ public class Simulator {
 		currentResult.wt = e.getWaitingTime();
 
 		avgDelay += e.getWaitingTime();
-		// plr=(double)tpl;
+		// plr=tpl;
 		avgBuffer += (queue.size() * dt);
 
 		currentResult.lost_ratio = (double) tpl / npa;
