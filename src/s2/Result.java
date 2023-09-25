@@ -18,7 +18,7 @@ public class Result implements Cloneable {
 	
 	public String toString() {
 		return String.format("%5.4f\t%s\t%5s\t%4d\t%5d\t%5d\t%5d\t"+
-	"%4.3f\t%4.3f\t%6.2f\t%6.3f\t%6.3f",clock,otype,ss,qLength,
+	"%4.3f\t%4.4f\t%6.2f\t%6.3f\t%6.3f",clock,otype,ss,qLength,
 	npa,npd,ndp,wt,st,lost_ratio,avgDelay,avgQLength);
 	}
 
