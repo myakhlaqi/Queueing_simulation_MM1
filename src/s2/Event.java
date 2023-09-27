@@ -54,7 +54,7 @@ class Event implements Cloneable{
 	
 	public String toString() {
 
-		/*return String.format(" <p%-3d,%-4.3f,%-4.3f,%-4.3f,%-4.2f,%3s>",id,this.ArrivalTime,
+		/*return String.format(" <p%-3d,%-4.3f,%-4.4f,%-4.3f,%-4.2f,%3s>",id,this.ArrivalTime,
 				this.getWaitingTime(),this.ServiceTime,this.DepartureTime,type);*/
 		return String.format(" <p%-3d,%-4.2f,%3s>",id,this.ArrivalTime,
 		type);
